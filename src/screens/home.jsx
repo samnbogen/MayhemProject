@@ -1,11 +1,19 @@
 import React, { useState } from 'react';
-import { SafeAreaView, StyleSheet, Alert, Text } from 'react-native';
+import { SafeAreaView, StyleSheet, Alert, Text, Button } from 'react-native';
+import MainLayout from '../layouts/MainLayout';
 
-
-function HomeScreen() {
+function Home({navigation}) {
     return (
-        <Text>Home Screen</Text>
+        <MainLayout>
+            <SafeAreaView>  
+                <Text>Home Screen</Text>
+                <Button
+                    title="Go to About"
+                    onPress={() => navigation.navigate('About')}
+                />
+            </SafeAreaView>
+        </MainLayout>
     );
 }
 
-export default HomeScreen;
+export default Home;

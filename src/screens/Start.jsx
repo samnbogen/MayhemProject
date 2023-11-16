@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { SafeAreaView, StyleSheet, Alert, Text } from 'react-native';
 
-function GameScreen() {
+function Start() {
     return (
-        <Text>Game Screen</Text>
+        <Text>Start Screen</Text>
     );
 }
 
-export default GameScreen;
+export default Start;
