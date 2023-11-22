@@ -27,30 +27,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
-    text: {
-        color: '#fcf8ee',
-        fontSize: 20,
-        fontWeight: 'bold',
-    },
-    Button: {
-        color: '#dc7426',
-        fontSize: 20,
-        fontWeight: 'bold',
-    },
-    SafeAreaView: {
-        flex: 1,
-        backgroundColor: '#230007',
-        alignItems: 'center',
-        justifyContent: 'center',
-        textAlign: 'center',
-        text: {
-            color: '#fcf8ee',
-            fontSize: 20,
-            fontWeight: 'bold',
-        },
-    },
-    
-
 });
 
 export default MainLayout;
