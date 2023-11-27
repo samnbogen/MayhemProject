@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: '#dc7426',
     borderRadius: 7,
+    width: 200,
   },
   buttonText: {
     color: '#fcf8ee',

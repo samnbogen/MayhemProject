@@ -1,8 +1,16 @@
 import React from 'react';
-import { SafeAreaView, TouchableOpacity, Text, View, StyleSheet } from 'react-native';
+import { SafeAreaView, TouchableOpacity, Text, View, StyleSheet, Image } from 'react-native';
 import MainLayout from '../layouts/MainLayout';
 
+const fireImage = require('../img/fire.jpg');
+
 const styles = StyleSheet.create({
+    backgroundImage: {
+        flex: 1,
+        width: '150%',
+        resizeMode: 'cover',
+        position: 'absolute',
+      },
     buttonContainer: {
         margin: 10,
     },
@@ -10,14 +18,21 @@ const styles = StyleSheet.create({
         backgroundColor: '#642935',
         padding: 10,
         alignItems: 'center',
-        borderWidth: 2, // Width of the border
-        borderColor: '#dc7426', // Color of the border
-        borderRadius: 7, // Radius of the border corners
+        borderWidth: 2, 
+        borderColor: '#dc7426', 
+        borderRadius: 7, 
+        width: 200,
     },
     buttonText: {
         color: '#fcf8ee', 
         fontSize: 20,
     },
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'relative',
+      },
     text: {
         color: '#dc7426', 
         textAlign: 'center',
@@ -32,6 +47,9 @@ function Home({ navigation }) {
     return (
       <MainLayout>
         <SafeAreaView>
+            <View style={styles.container}>
+            <Image source={fireImage} style={styles.backgroundImage} />
+            
           <Text style={styles.text}>Mayhem</Text>
           <View style={styles.buttonContainer}>
             <TouchableOpacity
@@ -56,6 +74,7 @@ function Home({ navigation }) {
             >
               <Text style={styles.buttonText}>Go to Death</Text>
             </TouchableOpacity>
+          </View>
           </View>
         </SafeAreaView>
       </MainLayout>
