@@ -27,30 +27,39 @@ const styles = StyleSheet.create({
     },
 });
 
-function Home({navigation}) {
-    return (
-        <MainLayout>
-            <SafeAreaView>  
-                <Text style={styles.text}>Mayhem</Text>
-                <View style={styles.buttonContainer}>
-                    <TouchableOpacity
-                        style={styles.button}
-                        onPress={() => navigation.navigate('Start')}
-                    >
-                        <Text style={styles.buttonText}>Start</Text>
-                    </TouchableOpacity>
-                </View>
-                <View style={styles.buttonContainer}>
-                    <TouchableOpacity
-                        style={styles.button}
-                        onPress={() => navigation.navigate('About')}
-                    >
-                        <Text style={styles.buttonText}>Go to About</Text>
-                    </TouchableOpacity>
-                </View>
-            </SafeAreaView>
-        </MainLayout>
-    );
-}
 
-export default Home;
+function Home({ navigation }) {
+    return (
+      <MainLayout>
+        <SafeAreaView>
+          <Text style={styles.text}>Mayhem</Text>
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => navigation.navigate('Start')}
+            >
+              <Text style={styles.buttonText}>Start</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => navigation.navigate('About')}
+            >
+              <Text style={styles.buttonText}>Go to About</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.buttonContainer}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => navigation.navigate('Death')}
+            >
+              <Text style={styles.buttonText}>Go to Death</Text>
+            </TouchableOpacity>
+          </View>
+        </SafeAreaView>
+      </MainLayout>
+    );
+  }
+  
+  export default Home;
