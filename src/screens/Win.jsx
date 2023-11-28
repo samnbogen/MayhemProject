@@ -2,7 +2,7 @@ import texts from "../utils/texts";
 import React from 'react';
 import { View, Text } from 'react-native';
 
-function DeathScreen({ route }) {
+function WinScreen({ route }) {
     // Extract the current ID from the route params
     const { id } = route.params;
   
@@ -17,4 +17,4 @@ function DeathScreen({ route }) {
     );
   }
   
-  export default DeathScreen;
+  export default WinScreen;
