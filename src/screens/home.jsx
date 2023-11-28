@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import React from 'react';
 import { SafeAreaView, TouchableOpacity, Text, View, StyleSheet, Image } from 'react-native';
 import MainLayout from '../layouts/MainLayout';
@@ -85,20 +84,3 @@ function Home({ navigation }) {
   }
   
   export default Home;
-=======
-import React, { useState } from 'react';
-import { SafeAreaView, StyleSheet, Alert, Text, Button } from 'react-native';
-
-
-function Home({navigation}) {
-    return (
-        <>
-            <Text>Home Screen</Text>
-            <Button title='Game screen' onPress={() => navigation.navigate('Game')}/>
-        </>
-        
-    );
-}
-
-export default Home;
->>>>>>> Stashed changes
