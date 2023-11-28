@@ -52,28 +52,30 @@ function Home({ navigation }) {
             <Image source={fireImage} style={styles.backgroundImage} />
             
           <Text style={styles.text}>Mayhem</Text>
+          
           <View style={styles.buttonContainer}>
             <TouchableOpacity
               style={styles.button}
-              onPress={() => navigation.navigate('Start')}
+              onPress={() => navigation.navigate('start')}
             >
               <Text style={styles.buttonText}>Start</Text>
             </TouchableOpacity>
           </View>
+
           <View style={styles.buttonContainer}>
             <TouchableOpacity
               style={styles.button}
-              onPress={() => navigation.navigate('About')}
+              onPress={() => navigation.navigate('about')}
             >
               <Text style={styles.buttonText}>Go to About</Text>
             </TouchableOpacity>
           </View>
+
           <View style={styles.buttonContainer}>
             <TouchableOpacity
               style={styles.button}
-              onPress={() => navigation.navigate('Death')}
+              onPress={() => navigation.navigate('game')}
             >
-              <Text style={styles.buttonText}>Go to Death</Text>
             </TouchableOpacity>
           </View>
           </View>
