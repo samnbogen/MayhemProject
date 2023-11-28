@@ -20,6 +20,10 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     margin: 10,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
   },
   button: {
     backgroundColor: '#642935',
