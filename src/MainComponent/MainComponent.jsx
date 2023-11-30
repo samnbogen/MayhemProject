@@ -21,9 +21,8 @@ function MainComponent({
     };
 
     const buttonLeftTitle = btnLeft && typeof btnLeft === 'string' ? btnLeft : '';
-  const buttonRightTitle = btnRight && typeof btnRight === 'string' ? btnRight : '';
+    const buttonRightTitle = btnRight && typeof btnRight === 'string' ? btnRight : '';
     
-
     return (
         <View style={styles.body}>
             <View >
@@ -110,9 +109,10 @@ const styles = StyleSheet.create({
         
     },
     button:{
-        backgroundColor: '#230007',
-        borderWidth: 2,
-        borderColor: '#dc7426',
+        backgroundColor: '#642935',
+        borderWidth: 2, 
+        borderColor: '#dc7426', 
+        borderRadius: 7, 
         fontFamily: 'Roboto, sans-serif',
         fontSize: 0,
         padding: 10,

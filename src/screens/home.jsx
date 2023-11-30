@@ -50,33 +50,26 @@ function Home({ navigation }) {
             <View style={styles.container}>
             <Image source={fireImage} style={styles.backgroundImage} />
             
-          <Text style={styles.text}>Mayhem</Text>
+            <Text style={styles.text}>Mayhem</Text>
           
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity
-              style={styles.button}
-              onPress={() => navigation.navigate('start')}
-            >
-              <Text style={styles.buttonText}>Start</Text>
-            </TouchableOpacity>
-          </View>
+            <View style={styles.buttonContainer}>
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => navigation.navigate('start')}
+              >
+                <Text style={styles.buttonText}>Start</Text>
+              </TouchableOpacity>
+            </View>
 
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity
-              style={styles.button}
-              onPress={() => navigation.navigate('about')}
-            >
-              <Text style={styles.buttonText}>Go to About</Text>
-            </TouchableOpacity>
-          </View>
-
-          <View style={styles.buttonContainer}>
-            <TouchableOpacity
-              style={styles.button}
-              onPress={() => navigation.navigate('game')}
-            >
-            </TouchableOpacity>
-          </View>
+            <View style={styles.buttonContainer}>
+              <TouchableOpacity
+                style={styles.button}
+                onPress={() => navigation.navigate('about')}
+              >
+                <Text style={styles.buttonText}>Go to About</Text>
+              </TouchableOpacity>
+            </View>
+            
           </View>
         </SafeAreaView>
       </MainLayout>
