@@ -1,16 +1,11 @@
 import doorImage from "../img/door.jpg";
 import roadImage from "../img/road.jpg";
 import lawnmowerImage from "../img/lawnmower.jpg"; //https://pixabay.com/photos/lawnmower-riding-mower-vehicle-6562243/
-import bangOnDoorImage from "../img/bangOnDoor.jpg";
 import runToShedImage from "../img/shed.jpg";
 import cabinImage from "../img/cabin.jpg";
 import bedroomDoorImage from "../img/bedroomDoor.jpg";
-import chainsawImage from "../img/chainsaw.jpg";
-import climbOutWindowImage from "../img/climbOutWindow.jpg";
-import hideInForestImage from "../img/hideInForest.jpg";
-import keepRunningImage from "../img/keepRunning.jpg";
+import climbOutWindowImage from "../img/climbOutTheWindow.jpg";
 import letItPassImage from "../img/letItPass.jpg";
-import stopCarImage from "../img/stopCar.jpg";
 import face from "../img/face.jpg"; //https://www.pexels.com/photo/jack-o-lantern-with-lighted-candles-5749961/
 
 const texts = [

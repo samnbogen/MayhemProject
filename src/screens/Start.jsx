@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     text: {
         color: '#dc7426', 
         textAlign: 'center',
-        fontSize: 20,
+        fontSize: 22,
         fontFamily: 'fantasy',
         paddingBottom: 10,
     },
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: '#fcf8ee', 
-        fontSize: 20,
+        fontSize: 22,
     },
     container: {
         flex: 1,

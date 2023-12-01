@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: '#fcf8ee', 
-        fontSize: 20,
+        fontSize: 22,
     },
     container: {
         flex: 1,

@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        fontSize: 30,
+        fontSize: 22,
         textAlign: "center",
         color: '#fff',
     },
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
       buttonText: {
         color: '#fcf8ee',
         fontFamily: 'Roboto, sans-serif',
-        fontSize: 25,
+        fontSize: 22,
         padding: 10,
       },
 

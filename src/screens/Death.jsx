@@ -5,6 +5,13 @@ import { SafeAreaView, TouchableOpacity, Text, View, StyleSheet, Image } from 'r
 const mayhemImage = require('../img/Mayhem.jpg'); //image https://www.pexels.com/photo/red-hoodie-3054218/
 
 const styles = StyleSheet.create({
+  text: {
+    color: '#fcf8ee',
+    fontSize: 22,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)', // Shadow color
+    textShadowOffset: {width: -1, height: 1}, // Shadow offset
+    textShadowRadius: 10, // Shadow blur radius
+  },
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -33,10 +40,11 @@ const styles = StyleSheet.create({
     borderColor: '#dc7426',
     borderRadius: 7,
     width: 200,
+    margin: 20,
   },
   buttonText: {
     color: '#fcf8ee',
-    fontSize: 20,
+    fontSize: 22,
   },
 });
 
@@ -53,7 +61,7 @@ function Death({navigation, route}) {
         <Image source={mayhemImage} style={styles.backgroundImage} />
             <SafeAreaView style={styles.buttonContainer}>
                 <View>
-                    <Text style={styles.buttonText} >{deathText ? deathText.text : 'Text not found'}</Text>
+                    <Text style={styles.text} >{deathText ? deathText.text : 'Text not found'}</Text>
                 </View>
             <TouchableOpacity style={styles.button}
                 onPress={() => navigation.navigate('home')}>
