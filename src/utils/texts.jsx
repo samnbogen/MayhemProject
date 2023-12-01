@@ -1,17 +1,11 @@
 import doorImage from "../img/door.jpg";
-import carImage from "../img/car.jpg";  
 import roadImage from "../img/road.jpg";
 import lawnmowerImage from "../img/lawnmower.jpg";
-import bangOnDoorImage from "../img/bangOnDoor.jpg";
 import runToShedImage from "../img/shed.jpg";
 import cabinImage from "../img/cabin.jpg";
 import bedroomDoorImage from "../img/bedroomDoor.jpg";
-import chainsawImage from "../img/chainsaw.jpg";
 import climbOutWindowImage from "../img/climbOutWindow.jpg";
-import hideInForestImage from "../img/hideInForest.jpg";
-import keepRunningImage from "../img/keepRunning.jpg";
 import letItPassImage from "../img/letItPass.jpg";
-import stopCarImage from "../img/stopCar.jpg";
 
 const texts = [
     {
@@ -77,7 +71,6 @@ const texts = [
     {
       id:5,
       text:"Your friends car is parked just ahead, you make a dash for it knowing that it's unlocked. You pull the handle and slide into the drivers seat, locking all the door behind you. You're not sure what your next move is though, the keys are still in your dead friend's pocket. You watch as Mayhem makes it's way over to the car, stopping just outside your window. You have a great view as it's plunges through the glass, shards flying everywhere as it grabs hold of your neck. You aren't even able to get enough air to be able to scream.",
-      image: carImage,
     },
     {
       id: 6,
@@ -126,12 +119,10 @@ const texts = [
     },
     {
       id:9,
-      image: stopCarImage,
       text:"A car! Hope courses through you at the prospect of getting a ride away from this awful night. You don't have much time to stop them, you jump out in front of the car and start waving your arms. There isn't enough time for the car to come to a stop, it swerves to try and avoid you but there isn't enough time. The impact send your flying into the ditch, your entire side burns and you're pretty sure a few of your ribs are broken. It hurts to breath. The car must of stopped to try and find you, judging by their screams Mayhem found them first. You can't even stand to make a run for it, you wait in agony for the screams to stop. It's almost a mercy when Mayhem finally makes it's way over to you and places it's boot on your throat.  ",
     },
     {
       id:10,
-      image: bangOnDoorImage,
       text:"You hammer your fist against the door and even attempt to open it yourself but find it locked. Eventually you hear the occupants of the cabin shout through the door trying to get you to identify yourself. You beg them to open the door, but they hesitate and that gives Mayhem just enough time to get to you. There is no time to run, Mayhem run's a blade clean through you. You cough up a mouthful of blood just as the door swings open. You try to tell them to run but all that comes out is more blood.",
       
     },
@@ -153,17 +144,17 @@ const texts = [
     {
       id:12,
       text:"You hope that the passing car serves as a distraction for Mayhem and you jump into the forest. Branches scratch across your arms and face, you can't see in inch ahead of yourself in the dark. It's slow moving trying to feel your way through the trees, you're only hope is that is also slowing down what is following you. You realize that was a foolish thought when those burning eyes appear before you. You try and turn and run but you can see the gleam of eyes all around you like the whole forest came to watch you die. You don't stand a chance as Mayhem stalks towards you can smashes you into the side of a tree. ",
-      image: hideInForestImage,
+
     },
     {
       id:13,
       text:"Your lungs burn and you can feel your legs cramping up. There isn't anything behind you when you risk a quick glance behind. You need a break, so you slow to a walk and take a better look. Still nothing there. You're not as out of shape as you thought! That relief is quickly squashed and you find Mayhem has managed to get ahead of you. It must have cut through the trees. You can hear the delight in it's laughter as he knocks you to the ground. That laughter rings through your head as his hands tighten around your throat.",
-      image: keepRunningImage,
+ 
     },
     {
       id:14,
       text:"On the shelf you spot a chainsaw, and it makes you wonder just how mortal Mayhem is. You want to find out. You pick up the chainsaw, recalling how your father always started his. You place it on the ground, get a good grip on it and pull sharply on the starting cord. You hear it attempt to start a few times before it comes to life. Perfect timing because when you turn around you see Mayhem in the yard stalking towards you. You wish you felt more confident but you don't have time to second guess yourself so you charge forward and jam the tip of the blade into it's chest. You can hear the blade ripping it apart, and you're able to push forward digging it in deeper inside of it.But there is no blood. There is only fire. The flames are uncontrolled, licking at your hands. You're to scared to let go but it so hot. Your sleeves catch on fire and you let go of the chainsaw so you can run but Mayhem already has a hold on you. There is a laugh as he pull you into himself. You scream from the heat. ",
-      image: chainsawImage,
+
     },
     {
       id:15,
