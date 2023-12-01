@@ -5,7 +5,7 @@ import shed from '../img/shed.jpg'; //https://www.pexels.com/photo/photo-of-shed
 import cabin from '../img/cabin.jpg'; //https://www.pexels.com/photo/brown-cabin-in-the-woods-on-daytime-803975/
 import bedroomDoor from '../img/bedroomDoor.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
 import window from '../img/window.jpg'; //https://www.pexels.com/photo/trees-in-the-forest-outside-the-window-5534045/
-import letItPass from '../img/letItPass.jpg';
+import letItPass from '../img/letItPass.jpg'; //https://www.pexels.com/photo/car-driving-on-road-between-trees-against-misty-sky-6108427/
 import face from '../img/face.jpg'; //https://www.pexels.com/photo/jack-o-lantern-with-lighted-candles-5749961/
 
 const texts = [
