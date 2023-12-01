@@ -2,7 +2,7 @@ import React from 'react';
 import { SafeAreaView, TouchableOpacity, Text, View, StyleSheet, Image } from 'react-native';
 import MainLayout from '../layouts/MainLayout';
 
-const fireImage = require('../img/fire.jpg');
+const fireImage = require('../img/fire.jpg'); //https://www.pexels.com/photo/flames-on-black-background-9667082/
 
 const styles = StyleSheet.create({
     backgroundImage: {
@@ -69,7 +69,7 @@ function Home({ navigation }) {
                 <Text style={styles.buttonText}>Go to About</Text>
               </TouchableOpacity>
             </View>
-            
+
           </View>
         </SafeAreaView>
       </MainLayout>
