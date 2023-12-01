@@ -2,7 +2,7 @@ import texts from "../utils/texts";
 import React from 'react';
 import { SafeAreaView, TouchableOpacity, Text, View, StyleSheet, Image } from 'react-native';
 
-const mayhemImage = require('../img/Mayhem.jpg');
+const mayhemImage = require('../img/Mayhem.jpg'); //image https://www.pexels.com/photo/red-hoodie-3054218/
 
 const styles = StyleSheet.create({
   container: {

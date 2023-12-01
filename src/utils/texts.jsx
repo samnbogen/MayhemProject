@@ -1,23 +1,30 @@
 import doorImage from "../img/door.jpg";
 import roadImage from "../img/road.jpg";
 import lawnmowerImage from "../img/lawnmower.jpg";
+import bangOnDoorImage from "../img/bangOnDoor.jpg";
 import runToShedImage from "../img/shed.jpg";
 import cabinImage from "../img/cabin.jpg";
 import bedroomDoorImage from "../img/bedroomDoor.jpg";
+import chainsawImage from "../img/chainsaw.jpg";
 import climbOutWindowImage from "../img/climbOutWindow.jpg";
+import hideInForestImage from "../img/hideInForest.jpg";
+import keepRunningImage from "../img/keepRunning.jpg";
 import letItPassImage from "../img/letItPass.jpg";
+import stopCarImage from "../img/stopCar.jpg";
 
 const texts = [
     {
       id: 1,
-      text: "Your whole body screams at you to move.",
+      text: "Your whole body screams at you to move. You can't stay here, you have to get out. You can hear it coming, the sound of it's laughter echoing through the house.",
+      image: face,
+      alt: "A face",      
       options: [
         {
           text: "Run to the door leading outside",
           nextText: 2,
         },
         {
-          text: "Stay Run to the bedroom",
+          text: "Run to the bedroom",
           nextText: 3,
         },
       ],

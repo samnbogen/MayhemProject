@@ -9,6 +9,7 @@ import game from './screens/game';
 import start from './screens/start';
 import death from './screens/death';
 import about from './screens/about';
+import win from './screens/win';
 
 const Stack = createStackNavigator();
 
@@ -21,7 +22,8 @@ function App() {
         <Stack.Screen name="start" component={start} />
         <Stack.Screen name="game" component={game} />
         <Stack.Screen name="death" component={death} /> 
-        <Stack.Screen name="about" component={about} />       
+        <Stack.Screen name="about" component={about} />  
+        <Stack.Screen name="win" component={win} />    
       </Stack.Navigator>
     </NavigationContainer>
   );
