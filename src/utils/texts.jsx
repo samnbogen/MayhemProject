@@ -1,5 +1,5 @@
 import door from '../img/door.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
-import road from '../img/road.jpg';
+import road from '../img/road.jpg'; //https://www.pexels.com/photo/concrete-road-surrounded-by-trees-831243/
 import lawnmower from '../img/lawnmower.jpg'; //https://pixabay.com/photos/lawnmower-riding-mower-vehicle-6562243/
 import shed from '../img/shed.jpg'; //https://www.pexels.com/photo/photo-of-shed-surrounded-by-tall-trees-2476685/
 import cabin from '../img/cabin.jpg'; //https://www.pexels.com/photo/brown-cabin-in-the-woods-on-daytime-803975/
