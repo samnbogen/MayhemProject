@@ -1,10 +1,10 @@
-import doorImage from '../img/door.jpg';
+import doorImage from '../img/door.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
 import roadImage from '../img/road.jpg';
 import lawnmowerImage from '../img/lawnmower.jpg'; //https://pixabay.com/photos/lawnmower-riding-mower-vehicle-6562243/
 import runToShedImage from '../img/shed.jpg';
-import cabinImage from '../img/cabin.jpg';
-import bedroomDoorImage from '../img/bedroomDoor.jpg';
-import window from '../img/climbOutTheWindow.jpg'; //https://www.pexels.com/photo/trees-in-the-forest-outside-the-window-5534045/
+import cabinImage from '../img/cabin.jpg'; //https://www.pexels.com/photo/brown-cabin-in-the-woods-on-daytime-803975/
+import bedroomDoorImage from '../img/bedroomDoor.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
+import window from '../img/window.jpg'; //https://www.pexels.com/photo/trees-in-the-forest-outside-the-window-5534045/
 import letItPassImage from '../img/letItPass.jpg';
 import face from '../img/face.jpg'; //https://www.pexels.com/photo/jack-o-lantern-with-lighted-candles-5749961/
 
