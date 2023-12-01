@@ -1,11 +1,11 @@
-import doorImage from '../img/door.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
-import roadImage from '../img/road.jpg';
-import lawnmowerImage from '../img/lawnmower.jpg'; //https://pixabay.com/photos/lawnmower-riding-mower-vehicle-6562243/
-import runToShedImage from '../img/shed.jpg';
-import cabinImage from '../img/cabin.jpg'; //https://www.pexels.com/photo/brown-cabin-in-the-woods-on-daytime-803975/
-import bedroomDoorImage from '../img/bedroomDoor.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
+import door from '../img/door.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
+import road from '../img/road.jpg';
+import lawnmower from '../img/lawnmower.jpg'; //https://pixabay.com/photos/lawnmower-riding-mower-vehicle-6562243/
+import shed from '../img/shed.jpg'; //https://www.pexels.com/photo/photo-of-shed-surrounded-by-tall-trees-2476685/
+import cabin from '../img/cabin.jpg'; //https://www.pexels.com/photo/brown-cabin-in-the-woods-on-daytime-803975/
+import bedroomDoor from '../img/bedroomDoor.jpg'; //https://www.pexels.com/photo/a-bedroom-from-the-wooden-door-9582668/
 import window from '../img/window.jpg'; //https://www.pexels.com/photo/trees-in-the-forest-outside-the-window-5534045/
-import letItPassImage from '../img/letItPass.jpg';
+import letItPass from '../img/letItPass.jpg';
 import face from '../img/face.jpg'; //https://www.pexels.com/photo/jack-o-lantern-with-lighted-candles-5749961/
 
 const texts = [
@@ -28,7 +28,7 @@ const texts = [
   {
     id: 2,
     text: 'Your feel unsteady as you twist around and make a run for the front door. There is no time to grab anything, you fling the door open and start running.',
-    image: doorImage,
+    image: door,
     alt: 'A door',
     options: [
       {
@@ -44,7 +44,7 @@ const texts = [
   {
     id: 3,
     text: 'It takes all of your will to make your legs move, but you make inside the bedroom. You slam the door shut behind you can place all your weight against it.',
-    image: bedroomDoorImage,
+    image: bedroomDoor,
     options: [
       {
         text: 'Climb out the window',
@@ -59,7 +59,7 @@ const texts = [
   {
     id: 4,
     text: "Your feet slip along the gravel. The last time you ran for anything was to grab the last piece of pie before your uncle could get it. Your lungs burn and you wish you could already take a break but you can hear that thing behind you. You can't see anything in the dark and you have to rely on you memory to remember how the road turns. ",
-    image: roadImage,
+    image: road,
     options: [
       {
         text: 'Keep running along the road',
@@ -78,7 +78,7 @@ const texts = [
   {
     id: 6,
     text: "This night is so dark, you can hardly tell where you are running. You don't trust yourself to try and veer off the road, not when you can still hear that thing behind you. You're not sure how much longer you can keep running. A pair of headlights blind you as they come around a corner. ",
-    image: roadImage,
+    image: road,
     options: [
       {
         text: 'Let it pass',
@@ -93,7 +93,7 @@ const texts = [
   {
     id: 7,
     text: 'You see a light flicker through the trees to your left, you recall that there was another cabin when you drove up. You can barely see, but you can just make out where the road makes a turn towards the property and you take it. The cabin comes fully into view, the lights inside illuminating it like a beacon of hope. There is a shed beside it.',
-    image: cabinImage,
+    image: cabin,
     options: [
       {
         text: 'Bang on the door',
@@ -108,7 +108,7 @@ const texts = [
   {
     id: 8,
     text: "The car is approaching too fast, there is no way to safely stop it. It pains you greatly but you let it pass by. You're not sure how much longer you can keep running.",
-    image: letItPassImage,
+    image: letItPass,
     options: [
       {
         text: 'Hide in the forest',
@@ -131,7 +131,7 @@ const texts = [
   {
     id: 11,
     text: "You think better of leading that things towards more people, you don't want to be responsible for their deaths. You run towards the shed instead, hoping that there will be something inside to help. Luckily it is unlocked, the lights from the house illuminating the contents inside. ",
-    image: runToShedImage,
+    image: shed,
     options: [
       {
         text: 'Take the chainsaw',
@@ -158,7 +158,7 @@ const texts = [
   {
     id: 15,
     text: 'In the middle of the shed sits a riding lawnmower. You jump on top of it, trying to figure out how it starts. Luckily is start with the simple push of a button, the motor roaring to life. ',
-    image: lawnmowerImage,
+    image: lawnmower,
     options: [
       {
         text: 'Drive into Mayhem',
